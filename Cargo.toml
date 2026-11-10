@@ -1,0 +1,8 @@
+[package]
+name = "pdf2str"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+liteparse = { version = "2.0.4", features = ["tesseract"] }
+tokio = { version = "1.52.3", features = ["full"] }
